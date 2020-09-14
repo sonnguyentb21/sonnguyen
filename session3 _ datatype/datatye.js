@@ -53,7 +53,7 @@ dem20 = Math.floor(X/20000) ;
 X-=dem20*20000;
 dem10 = Math.floor(X/10000);
 X=-dem10*10000;
-console.log(m+" = "+ dem100 + " to_100000" + dem50 + " To_50000" + dem20 + " To_20000"+ dem10 + " To_10000");
+console.log(m+" = "+ dem100 +  ",to_100000 + " + dem50 + ",To_50000 + " + dem20 + ",To_20000 + "+ dem10 + ",To_10000 + ");
 
 
 
