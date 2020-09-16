@@ -86,18 +86,34 @@
 // console.log(" - kết quả = " + y2);
 
 // Bài 5: nhập số có 3 chữ số rồi tính tổng chữ số đó.
- let x = Number(prompt("Nhập số X:"));
- let m = x ;
- let ketQua100 , ketQua10 , ketQua1 ;
- ketQua100 = Math.floor(x/100) ;
- x = x - ketQua100 * 100 ;
- ketQua10 = Math.floor(x/10);
- x -= ketQua10 * 10 ;
- ketQua1 = Math.floor(x/1);
+//  let x = Number(prompt("Nhập số X:"));
+//  let m = x ;
+//  let ketQuaChia100 , ketQuaChia10 , ketQuaChia1 ;
+//  ketQuaChia100 = Math.floor(x/100) ;
+//  x = x - ketQuaChia100 * 100 ;
+//  ketQuaChia10 = Math.floor(x/10);
+//  x -= ketQuaChia10 * 10 ;
+//  ketQuaChia1 = Math.floor(x/1);
  
- let sum = ketQua100 + ketQua10 + ketQua1 ;
- console.log("Tổng = " + sum);
+//  let sum = ketQuaChia100 + ketQuaChia10 + ketQuaChia1 ;
+//  console.log("Tổng = " + sum);
 
+
+//Bài 5.1 Nhập số có 4 chữ số tính tổng các chữ số đó
+    let x = Number(prompt("Nhập số x:"));
+    let n = x ;
+    let ketQuaChia1000 , ketQuaChia100 , ketQuaChia10 , ketQuaChia1 ;
+    ketQuaChia1000 = Math.floor(x/1000);
+    x = x - ketQuaChia1000 * 1000;
+    ketQuaChia100 = Math.floor(x/100) ;
+    x = x - ketQuaChia100 * 100 ;
+    ketQuaChia10 = Math.floor(x/10);
+    x -= ketQuaChia10 * 10 ;
+    ketQuaChia1 = Math.floor(x/1);
+    
+
+    let sum = ketQuaChia1000 +  ketQuaChia100 + ketQuaChia10 + ketQuaChia1 ;
+    console.log("Tổng = " + sum );
 
 
 
