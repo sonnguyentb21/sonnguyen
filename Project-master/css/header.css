@@ -1,0 +1,48 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header, .list {
+    display: flex;
+    flex-direction :space-around;
+}
+
+.list img{
+    padding-left: 60px;
+    padding-top: 10px;
+}
+/* .list .list-item{
+    padding: 15px;
+    text-align: center;
+    width: 100px;
+    position: relative;
+}
+
+.list .anime{
+    background-color: red;
+    border-radius: 10px;
+}
+
+.list .news{
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.list .rank{
+    background-color: blue;
+    border-radius: 10px;
+} */
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.list-item:hover{
+    transform: absolute;
+}
+
+.list h3{
+    padding-left: 350px;
+    font-size: larger;
+}
