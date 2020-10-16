@@ -132,7 +132,7 @@
        
 //    }
 
-//    console.log(`Giảm dần`);
+//    console.log(`Tang dan`);
 //    let heighs = [150 , 155 , 170, 145 ,180];
 //    for (let i = 0; i < heighs.length-1; i++) {
 //        for (let j = i +1 ; j < heighs.length; j++) {
@@ -245,7 +245,7 @@
 // }
 // Do Homeword.
 // Bài 1:Tính tổng các phần tử của 1 mảng
-// let numbers = [150,180,190,200,160,140,170,230];
+let numbers = [150,180,190,200,160,140,170,230];
 // console.log(`Bài 1: Tính tổng các phần tử của 1 mảng:`);
 // let sum = 0 ;
 // for (let i = 0; i< numbers.length; i++) {
@@ -274,15 +274,25 @@
 // }
 // console.log(` Số lớn nhất : ${max}`);
 
-let min = numbers[0];
+// let min = numbers[0];
 
-for (let i = 0; i < numbers.length; i++) {
-   const number = numbers[i];
-   if ( number < min){
-      min = number ;
-   }
-}
-console.log(` Số nhỏ nhất: ${min}`);
+// for (let i = 0; i < numbers.length; i++) {
+//    const number = numbers[i];
+//    if ( number < min){
+//       min = number ;
+//    }
+// }
+// console.log(` Số nhỏ nhất: ${min}`);
 
 // // Bài 4 :Sắp xếp mảng
 // console.log(`Bài 4 : Sắp xếp mảng.`);
+for (let i= 0 ; i < numbers.length -1 ; i++){
+   for(let j = i+1 ; j < numbers.length ; j++){
+      if(numbers[i]>numbers[j]){
+         let temp = numbers[i];
+         numbers[i]= numbers[j];
+         numbers[j]= temp;
+      }
+   }
+}
+console.log(`Tăng Dần:  ${numbers}`);

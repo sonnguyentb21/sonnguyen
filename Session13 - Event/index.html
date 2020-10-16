@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+<body>
+    
+    Event
+
+
+     <!-- <h1 onclick="helloWorld()">Hello World</h1>
+
+    <h2 id="title">Đây là thẻ h2</h2> -->
+    <!-- Nhập tên : <input id="inputName" onkeypress="enterLogin(event, this)" placeholder="Enter name...." type="text"> <br>
+    Nhập pass : <input id="inputPass" onkeypress="enterLogin(event, this)" placeholder="Enter name...." type="password"> <br>
+    <button onclick="check(event, this)">Click me</button>  -->
+     <br>
+    Tên Điện Thoại: 
+    <input type="text"
+        onkeypress="enterAddPhone(event)"
+        placeholder="Enter phone name..."
+        id="txtPhoneName">
+    <br>
+    <button onclick="addPhone()">Thêm</button>
+    <br>
+    <input type="text" placeholder="Search here..." id="txtSearch">
+    <br>
+    <button onclick="searchPhone()">Search</button>
+    <br>
+    List phones :
+    <ul id="list-phones">
+        
+    </ul>
+    
+   
+    <script src="event.js"></script>
+
+
+</body>
+</html>

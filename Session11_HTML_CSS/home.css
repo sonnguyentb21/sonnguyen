@@ -1,0 +1,14 @@
+
+#tieude{
+    font-weight: bold;
+    font-size: 24px;
+}
+#doanvan1{
+    font-weight: normal;
+    font-size: 18px;
+    text-indent: 10px;
+}
+.text-red{
+    color: aliceblue;
+    background-color: green;
+}
